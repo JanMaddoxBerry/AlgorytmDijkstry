@@ -4,21 +4,17 @@ import java.util.Deque;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
+Integer smallest;
+ArrayList<Integer> Q = new ArrayList<Integer>();
+Q.add(5);
+Q.add(2);
+Q.add(6);
+Q.add(7);
+Q.add(3);
 
-public DirectedEdge(int from, int to, int weight) {
-this.from = from;
-this.to = to;
-this.weight = weight;
-}
- 
-public int from() {
-return from;
-}
- 
-public int to() {
-return to;
-}
- 
-public long getWeight() {
-return weight;
+
+for(Integer i = 0; i <= Q.size(); i++){
+   if(i = 0){
+      smallest = Q[i];
+   }
 }
